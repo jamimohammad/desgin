@@ -1,0 +1,151 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+}
+
+.header {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    justify-content: center;
+}
+
+.logo img {
+    height: 30px;
+}
+
+
+.collections a {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.watches a {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.quick a {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.pages a {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 1px;
+    padding: 15px 40px;
+    border-radius: 30px;
+
+}
+
+.contact a:hover {
+    background-color: cornflowerblue;
+}
+
+.logo-contact img {
+    height: 25px;
+    border: 1px;
+    border: 1px solid black;
+    padding: 15px 15px;
+    border-radius: 30px;
+    opacity: 0.3;
+
+
+}
+
+.button-contact {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+
+}
+
+.logo-image {
+    position: absolute;
+    background-color: #f04;
+    color: white;
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    top: 67px;
+
+}
+
+.contact-shop {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+
+
+}
+
+.box {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+
+.box a {
+    position: relative;
+    padding: 10px 5px;
+    color: gray;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.box a.active,
+.box a:hover {
+    color: black;
+
+}
+
+
+.box a::before,
+.box a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: black;
+    transform: scaleX(0);
+    opacity: 0.1;
+}
+
+.box a::before {
+    top: 0;
+}
+
+.box a::after {
+    bottom: 0;
+}
+
+.box a:hover {
+    color: black;
+
+}
+
+.box a.active::before,
+.box a.active::after,
+.box a:hover::before,
+.box a:hover::after {
+    transform: scaleX(1);
+}
