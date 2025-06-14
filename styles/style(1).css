@@ -16,7 +16,6 @@ body {
     height: 30px;
 }
 
-
 .collections a {
     color: darkgray;
     text-decoration: none;
@@ -44,7 +43,6 @@ body {
     border: 1px;
     padding: 15px 40px;
     border-radius: 30px;
-
 }
 
 .contact a:hover {
@@ -58,16 +56,12 @@ body {
     padding: 15px 15px;
     border-radius: 30px;
     opacity: 0.3;
-
-
 }
 
 .button-contact {
     display: flex;
     align-items: center;
     gap: 15px;
-
-
 }
 
 .logo-image {
@@ -82,15 +76,12 @@ body {
     justify-content: center;
     border-radius: 50%;
     top: 67px;
-
 }
 
 .contact-shop {
     display: flex;
     justify-content: end;
     align-items: end;
-
-
 }
 
 .box {
@@ -100,7 +91,6 @@ body {
     padding: 20px;
     font-weight: bold;
     font-size: 17px;
-
 }
 
 .box a {
@@ -115,9 +105,7 @@ body {
 .box a.active,
 .box a:hover {
     color: black;
-
 }
-
 
 .box a::before,
 .box a::after {
@@ -141,7 +129,6 @@ body {
 
 .box a:hover {
     color: black;
-
 }
 
 .box a.active::before,
@@ -205,11 +192,9 @@ body {
     border-radius: 30px;
     font-weight: bold;
 }
-
 .button-now a:hover {
     background-color: black;
 }
-
 .button-watch {
     text-decoration: none;
     border: 1px solid black;
