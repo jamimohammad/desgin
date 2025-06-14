@@ -9,6 +9,7 @@ body {
     align-items: center;
     gap: 150px;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .logo img {
@@ -148,4 +149,92 @@ body {
 .box a:hover::before,
 .box a:hover::after {
     transform: scaleX(1);
+}
+
+.title {
+    margin-top: 120px;
+}
+
+.title-1 h3 {
+    font-size: 30px;
+    font-weight: 100;
+    opacity: 0.4;
+    margin-bottom: -20px;
+}
+
+.title-2 h2 {
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: -50px;
+}
+
+.title-3 h1 {
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 90px;
+}
+
+.watch img {
+    height: 550px;
+}
+
+.watch {
+    padding-top: 30px;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.buttons {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.button-now a {
+    text-decoration: none;
+    color: white;
+    background-color: dodgerblue;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.button-now a:hover {
+    background-color: black;
+}
+
+.button-watch {
+    text-decoration: none;
+    border: 1px solid black;
+    padding-left: 40px;
+    padding-top: 18px;
+    padding-right: 40px;
+    padding-bottom: 18px;
+    border-radius: 30px;
+    font-weight: bold;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.button-watch img {
+    height: 18px;
+}
+
+.button-watch:hover {
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+    color: white;
+}
+
+.button-watch a {
+    text-decoration: none;
+    color: black;
 }
